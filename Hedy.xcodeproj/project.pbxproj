@@ -8,18 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		12E4F39C280B181C00397493 /* HedyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4F39B280B181C00397493 /* HedyApp.swift */; };
-		12E4F39E280B181C00397493 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4F39D280B181C00397493 /* ContentView.swift */; };
 		12E4F3A0280B181E00397493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E4F39F280B181E00397493 /* Assets.xcassets */; };
-		12E4F3A3280B181E00397493 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E4F3A2280B181E00397493 /* Preview Assets.xcassets */; };
+		12E4F3AB280B1A8200397493 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4F3AA280B1A8200397493 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12E4F398280B181C00397493 /* Hedy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hedy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E4F39B280B181C00397493 /* HedyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HedyApp.swift; sourceTree = "<group>"; };
-		12E4F39D280B181C00397493 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12E4F39F280B181E00397493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		12E4F3A2280B181E00397493 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12E4F3A4280B181E00397493 /* Hedy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hedy.entitlements; sourceTree = "<group>"; };
+		12E4F3AA280B1A8200397493 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,21 +50,12 @@
 		12E4F39A280B181C00397493 /* Hedy */ = {
 			isa = PBXGroup;
 			children = (
+				12E4F3AA280B1A8200397493 /* ContentView.swift */,
 				12E4F39B280B181C00397493 /* HedyApp.swift */,
-				12E4F39D280B181C00397493 /* ContentView.swift */,
 				12E4F39F280B181E00397493 /* Assets.xcassets */,
 				12E4F3A4280B181E00397493 /* Hedy.entitlements */,
-				12E4F3A1280B181E00397493 /* Preview Content */,
 			);
 			path = Hedy;
-			sourceTree = "<group>";
-		};
-		12E4F3A1280B181E00397493 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				12E4F3A2280B181E00397493 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +116,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E4F3A3280B181E00397493 /* Preview Assets.xcassets in Resources */,
 				12E4F3A0280B181E00397493 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E4F39E280B181C00397493 /* ContentView.swift in Sources */,
+				12E4F3AB280B1A8200397493 /* ContentView.swift in Sources */,
 				12E4F39C280B181C00397493 /* HedyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,11 +257,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hedy/Preview Content\"";
 				DEVELOPMENT_TEAM = 7N2YJCXP6S;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,11 +284,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hedy/Preview Content\"";
 				DEVELOPMENT_TEAM = 7N2YJCXP6S;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
