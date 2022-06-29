@@ -53,16 +53,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     // Locked observer handler method
     func locked_handler(notification: Notification) {
-        print("Notification", notification)
-        
-        // todo wait then disconnect
         disconnect()
     }
     
     // Unlocked observer handler method
     func unlocked_handler(notification: Notification) {
-        print("Notification", notification)
-        
         // only connect if disconnected by app
         if was_disconnected {
             connect()
