@@ -26,8 +26,6 @@ struct HedyApp: App {
 }
 
 class AppDelegate: NSObject, NSApplicationDelegate {
-    var was_disconnected: Bool = false
-    
     func applicationDidFinishLaunching(_ notification: Notification) {
         // hide from dock
         NSApp.setActivationPolicy(.prohibited)
@@ -58,12 +56,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     // Unlocked observer handler method
     func unlocked_handler(notification: Notification) {
-        // only connect if disconnected by app
-        if was_disconnected {
-            connect()
-        }
-    
-        was_disconnected = false
+        connect()
     }
     
     // Disconnects the device with DEVICE_MAC
@@ -80,7 +73,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         if bluetoothDevice.isConnected() {
             bluetoothDevice.closeConnection()
-            was_disconnected = true
             print("Disconnected")
         }
     }

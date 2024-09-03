@@ -3,25 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		12E4F39C280B181C00397493 /* HedyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4F39B280B181C00397493 /* HedyApp.swift */; };
-		12E4F3A0280B181E00397493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E4F39F280B181E00397493 /* Assets.xcassets */; };
-		12E4F3AB280B1A8200397493 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4F3AA280B1A8200397493 /* ContentView.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		12E4F398280B181C00397493 /* Hedy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hedy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		12E4F39B280B181C00397493 /* HedyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HedyApp.swift; sourceTree = "<group>"; };
-		12E4F39F280B181E00397493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		12E4F3A4280B181E00397493 /* Hedy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hedy.entitlements; sourceTree = "<group>"; };
-		12E4F3AA280B1A8200397493 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		12E295EC2C871AFB005C68E7 /* idble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		12E295EE2C871AFB005C68E7 /* idble */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = idble;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		12E4F395280B181C00397493 /* Frameworks */ = {
+		12E295E92C871AFB005C68E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,117 +29,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12E4F38F280B181C00397493 = {
+		12E295E32C871AFA005C68E7 = {
 			isa = PBXGroup;
 			children = (
-				12E4F39A280B181C00397493 /* Hedy */,
-				12E4F399280B181C00397493 /* Products */,
+				12E295EE2C871AFB005C68E7 /* idble */,
+				12E295ED2C871AFB005C68E7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		12E4F399280B181C00397493 /* Products */ = {
+		12E295ED2C871AFB005C68E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12E4F398280B181C00397493 /* Hedy.app */,
+				12E295EC2C871AFB005C68E7 /* idble.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		12E4F39A280B181C00397493 /* Hedy */ = {
-			isa = PBXGroup;
-			children = (
-				12E4F3AA280B1A8200397493 /* ContentView.swift */,
-				12E4F39B280B181C00397493 /* HedyApp.swift */,
-				12E4F39F280B181E00397493 /* Assets.xcassets */,
-				12E4F3A4280B181E00397493 /* Hedy.entitlements */,
-			);
-			path = Hedy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		12E4F397280B181C00397493 /* Hedy */ = {
+		12E295EB2C871AFB005C68E7 /* idble */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12E4F3A7280B181E00397493 /* Build configuration list for PBXNativeTarget "Hedy" */;
+			buildConfigurationList = 12E295FB2C871AFC005C68E7 /* Build configuration list for PBXNativeTarget "idble" */;
 			buildPhases = (
-				12E4F394280B181C00397493 /* Sources */,
-				12E4F395280B181C00397493 /* Frameworks */,
-				12E4F396280B181C00397493 /* Resources */,
+				12E295E82C871AFB005C68E7 /* Sources */,
+				12E295E92C871AFB005C68E7 /* Frameworks */,
+				12E295EA2C871AFB005C68E7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Hedy;
-			productName = Hedy;
-			productReference = 12E4F398280B181C00397493 /* Hedy.app */;
+			fileSystemSynchronizedGroups = (
+				12E295EE2C871AFB005C68E7 /* idble */,
+			);
+			name = idble;
+			packageProductDependencies = (
+			);
+			productName = idble;
+			productReference = 12E295EC2C871AFB005C68E7 /* idble.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		12E4F390280B181C00397493 /* Project object */ = {
+		12E295E42C871AFA005C68E7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1340;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					12E4F397280B181C00397493 = {
-						CreatedOnToolsVersion = 13.3.1;
+					12E295EB2C871AFB005C68E7 = {
+						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 12E4F393280B181C00397493 /* Build configuration list for PBXProject "Hedy" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 12E295E72C871AFA005C68E7 /* Build configuration list for PBXProject "idble" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 12E4F38F280B181C00397493;
-			productRefGroup = 12E4F399280B181C00397493 /* Products */;
+			mainGroup = 12E295E32C871AFA005C68E7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 12E295ED2C871AFB005C68E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				12E4F397280B181C00397493 /* Hedy */,
+				12E295EB2C871AFB005C68E7 /* idble */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		12E4F396280B181C00397493 /* Resources */ = {
+		12E295EA2C871AFB005C68E7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E4F3A0280B181E00397493 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12E4F394280B181C00397493 /* Sources */ = {
+		12E295E82C871AFB005C68E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E4F3AB280B1A8200397493 /* ContentView.swift in Sources */,
-				12E4F39C280B181C00397493 /* HedyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		12E4F3A5280B181E00397493 /* Debug */ = {
+		12E295F92C871AFC005C68E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -171,7 +162,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -185,23 +177,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		12E4F3A6280B181E00397493 /* Release */ = {
+		12E295FA2C871AFC005C68E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -231,7 +225,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -239,65 +234,65 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		12E4F3A8280B181E00397493 /* Debug */ = {
+		12E295FC2C871AFC005C68E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Hedy/Hedy.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = idble/idble.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"idble/Preview Content\"";
 				DEVELOPMENT_TEAM = 7N2YJCXP6S;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is required to connect and disconnect headphones";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tech.mckeogh.Hedy;
+				PRODUCT_BUNDLE_IDENTIFIER = fmckeogh.idble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		12E4F3A9280B181E00397493 /* Release */ = {
+		12E295FD2C871AFC005C68E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Hedy/Hedy.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = idble/idble.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"idble/Preview Content\"";
 				DEVELOPMENT_TEAM = 7N2YJCXP6S;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is required to connect and disconnect headphones";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tech.mckeogh.Hedy;
+				PRODUCT_BUNDLE_IDENTIFIER = fmckeogh.idble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,25 +302,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12E4F393280B181C00397493 /* Build configuration list for PBXProject "Hedy" */ = {
+		12E295E72C871AFA005C68E7 /* Build configuration list for PBXProject "idble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12E4F3A5280B181E00397493 /* Debug */,
-				12E4F3A6280B181E00397493 /* Release */,
+				12E295F92C871AFC005C68E7 /* Debug */,
+				12E295FA2C871AFC005C68E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12E4F3A7280B181E00397493 /* Build configuration list for PBXNativeTarget "Hedy" */ = {
+		12E295FB2C871AFC005C68E7 /* Build configuration list for PBXNativeTarget "idble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12E4F3A8280B181E00397493 /* Debug */,
-				12E4F3A9280B181E00397493 /* Release */,
+				12E295FC2C871AFC005C68E7 /* Debug */,
+				12E295FD2C871AFC005C68E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 12E4F390280B181C00397493 /* Project object */;
+	rootObject = 12E295E42C871AFA005C68E7 /* Project object */;
 }
